@@ -1,0 +1,35 @@
+.about{
+    display: flex;
+    margin: 200px 200px;
+    background-color: rgb(247, 247, 247);
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+}
+.about span:nth-child(1){
+    color: #F68D1E;
+    font-size: 35px;
+    font-weight: 600px;
+    margin-right: 40px
+}
+.about span:nth-last-child(3){
+    width: 530px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+.hr{
+    color: #F68D1E;
+    background-color: #F68D1E;
+    height: 300px;
+    width: 5px;
+    border: none;
+    margin-right: 50px;
+}
+
+.about-main{
+    background-color: rgb(216, 213, 213);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 100px 0px;
+}

@@ -1,0 +1,48 @@
+.education-main{
+    background-color: #f3f8ff;
+    padding: 100px 100px;
+    margin: 100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* gap: 50px; */
+    align-items: center;
+    justify-content: space-between;
+}
+.education-left{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+.education-left span:nth-child(1){
+    color: #F68D1E;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    position: relative;
+    left: 15px;
+    z-index: 1;
+}
+.education-left span:nth-child(2){
+    /* color: #9696a0; */
+    color: black;
+    font-weight: 500;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgb(194, 191, 191);
+}
+.eduction{
+    /* display: grid; */
+    grid-template-columns: 1fr 1fr;
+}
+.eduction{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-start: auto;
+    gap: 30px;
+}
+.learning{
+    color: black;
+    z-index: -1;
+}

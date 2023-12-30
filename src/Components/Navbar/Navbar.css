@@ -1,0 +1,97 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0px;
+    color: white;
+    width: 100vw;
+    box-shadow: 1px 1px 2px #F68D1E;
+    z-index: 1;
+    overflow: hidden;
+    position: fixed;
+    padding-top: 24px;
+    z-index: 2;
+    position: fixed;
+    top: 0px;
+}
+.nav-scroll-left{
+    color: white;
+}
+.scrolled-nav-left ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px;
+}
+.scrolled-nav-left ul li{
+    list-style: none;
+}
+.scrolled-nav-left ul li a{
+    list-style: none;
+    color: white;
+}
+.nav-right ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px;
+}
+.nav-left span a{
+    font-size: 25px;
+    color: #F68D1E;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    left: -3rem;
+}
+.nav-right ul li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: 500;
+}
+#contect-btn{
+    background-color: #F68D1E;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: relative;
+    top: -8px;
+}
+.nav-left-scroll span a{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    left: -3rem;
+}
+.scrolled{
+    background-color: #F68D1E;
+}
+#scolling-btn{
+    background-color: white;
+    color: #F68D1E;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: relative;
+    top: -8px;
+}
+@media (max-width:450px) {
+    nav{
+        overflow-x:hidden;
+    }
+    .nav-right ul li{
+        visibility: hidden;
+    }
+    .nav-left span a{
+        position: relative;
+        left: 62px;
+        display: inline-block;
+        width: 165px;
+    }
+}

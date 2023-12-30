@@ -1,0 +1,31 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 54px 48px;
+    width: 294px;
+    height: 300px;
+    font-size: 18px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 2px gray;
+}
+.top img{
+    width: 50px;
+}
+.top{
+    margin-bottom: 20px;
+}
+.buttom{
+    display: flex;
+    flex-direction: column;
+}
+.buttom span span{
+    color: #F68D1E;
+}
+@media (max-width:450px) {
+    .card{
+        margin-bottom: 30px;
+    }
+}

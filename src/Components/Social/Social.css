@@ -1,0 +1,33 @@
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 12rem;
+    background-color: #F68D1E;
+    margin: 50px 0px;
+    padding: 50px 0px;
+}
+a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #F68D1E;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social div a{
+    background-color: white;
+    padding: 5px;
+    border-radius: 10%;
+    font-size: 15px;
+    font-weight: 600;
+}
+@media (max-width:450px) {
+    .social{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100vw;
+    }
+}
